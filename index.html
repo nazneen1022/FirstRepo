@@ -12,7 +12,7 @@ body {
     font-size: small;
 }
 
-.roundVioletSquare {
+.rectangularOutBox {
   background-color: rgb(247, 115, 39);
   border-radius: 20px;
   width: 600px;
@@ -33,9 +33,8 @@ body {
 }
 .borderimage {
   margin: 10px;
-  padding: 15px;
-  border-image: url(BorderImage.jpg);
-  border-image-slice: 30% stretch;
+  padding: 10px;
+  border-image: url(BorderImage.jpg) 30% stretch;
 }
 img.rounded {
   border-radius: 50%;
@@ -43,7 +42,7 @@ img.rounded {
 </style>
 </head>
 <body>
-    <div class="roundVioletSquare">
+    <div class="rectangularOutBox">
         <p style = "text-align:center; font-style:italic;"><b>Nazneen Tabassum</b><br/>Den Haag, Netherlands</p>
         <div class="border" style= "background: rgb(252, 252, 90)">
             <img class = "rounded" src="NazneenTabassum.jpg" alt="Photo" width="100" height="100">

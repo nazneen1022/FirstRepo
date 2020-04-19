@@ -1,73 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-body {
-    background-image: url('backgroundImage.jpg');
-    background-repeat: no-repeat;
-    align-content: center;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: normal;
-    font-size: medium;
-}
-
-.rectangularOutBox {
-  background-color: rgb(247, 115, 39);
-  border-radius: 20px;
-  width: 600px;
-  height: 650px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-.border {
-  border-radius: 10px;
-  margin: 10px;
-  padding: 5px; 
-  align-content: center;
-  justify-content: center;
-  width: auto;
-  height: auto; 
-}
-.borderimage {
-  margin: 10px;
-  padding: 5px;
-  border-image: url(BorderImage.jpg) 30% stretch;
-}
-img.rounded {
-  border-radius: 50%;
-}
-</style>
-<TITLE>My Profile</TITLE>
-</head>
-<body>
-    <div class="rectangularOutBox">
-        <p style = "text-align:center; font-style:italic;"><b>Nazneen Tabassum</b><br/>Den Haag, Netherlands</p>
-        <div class="border" style= "background: rgb(252, 252, 90)">
-            <img class = "rounded" src="NazneenTabassum.jpg" alt="Photo" width="100" height="100">
-            <p>I am Nazneen Tabassum. U can call me 'Nazneen'. I am from India 
-            <img src="IndianFlag.png" alt="IndianFlag" width="20" height="15"> 
-            <br/>Born on 04th November. I am calm and cool person.<br/>Graduated in Computer Science Engineering.<br/></p>
+    <header>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </header>
+    <body>
+        <div class="overlay"></div>
+        <div class="description">
+            <h1>Hey, Welcome to my website!!</h1>
+            <p>Nazneen Tabassum</p>
+            <br />
+            <button class="btn btn-outline-secondary btn-lg">Tell Me More!</button>
         </div>
-        <!--<div style="border-image: url(BorderImage.jpg) 20% round; margin:10px;padding: 10px; text-align: center;">-->
-        <div class="borderimage" style="text-align: center;">    
-            <br/><br/>
-            <p>My Hobbies include Playing Badminton, Gardening, Listening to music and Watching Movies.
-            <br/><br/>Likes Vegetarian foods, mostly South Indian Cuisine.
-            <br/><br/>Loves to spend time with my family and prepare sweets.
-            <br/><br/>My life motto: Be Good, Do Good</p>
-            <br/><br/>
-        </div>
-        <div class="border" style= "font-size: small;background:rgb(230, 203, 56)">
-            <p><b>LinkedIn Id: </b><a target="_blank" href="https://www.linkedin.com/in/nazneen-tabassum-28b399a1">https://www.linkedin.com/in/nazneen-tabassum-28b399a1</a>
-            <br/><b>Mail Id: </b>nazneen1022@gmail.com</p>
-        </div>
-    </div>
-</body>
-
-dfd
-
-
-
+        <div class="container features">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">Lorem ipsum</h3>
+                <img src="images/NazneenTabassum.jpg.jpg" class="img-fluid">
+                <p>I am Nazneen Tabassum. U can call me 'Nazneen'. 
+                  <br/>Currently living in Den Haag, Netherlands. Natively from Southern part of India.
+                  <br/>Born on 04th November. I am calm and cool person. 
+                  <br/>Holding Bachelors degree in Computer Science Engineering.
+                  <br/>Enjoys Programming & Logics by constantly learning and improving skills.
+                  <br />Belioeves in growing together rather than alone!!</p>
+                </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">Lorem ipsum</h3>
+                <img src="images/Hobbies.jpg" class="img-fluid">
+                <uo>
+                    <li>Interested Playing Badminton, Gardening, Listening to music and Watching Movies.</li>
+                    <li>Likes Vegetarian foods, mostly South Indian Cuisine.</li>
+                    <li>Loves to spend time with my family and prepare sweets.</li>
+                    <li>My life motto: Be Good, Do Good</li>  
+                </uo>  
+            </div>
+            </div>
+         </div> 
+     </body>
+     <footer>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h6 class="text-uppercase font-weight-bold">Contact</h6>
+            <p>Lives in Rijswijk, Den Haag, Netherlands
+            <br/>nazneen1022@gmail.com
+            <br/><a target="_blank" href="https://www.linkedin.com/in/nazneen-tabassum-28b399a1">Linked In</a></p>
+          </div>
+     </footer>
+</html>
